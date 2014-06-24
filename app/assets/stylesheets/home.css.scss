@@ -383,3 +383,20 @@ body {
   max-width: 100px;
   margin-bottom: 30px;
 }
+
+/***********/
+.navbar-default {
+  background-color: transparent;
+  border:0;
+  font-family: $font-stack !important;
+  color: #000 !important;
+  a {
+    color: inherit;
+    &:hover {
+      color: $red !important;
+      @extend .hover-behavior;
+    }
+  }
+
+}
+
